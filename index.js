@@ -1,5 +1,5 @@
 var t = require('tcomb')
-var pixelsToCanvas = require('2dpixels-canvas')
+var pixelsToCanvas = require('pixels-canvas')
 
 // widget docs
 // https://github.com/Matt-Esch/virtual-dom/blob/master/docs/widget.md
