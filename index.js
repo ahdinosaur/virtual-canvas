@@ -37,7 +37,7 @@ CanvasWidget.prototype.destroy = function (domNode) {}
 function assignDomEvents (target, source) {
   for (var i = 0; i < domEvents.length; ++i) {
     var eventName = 'on' + domEvents[i]
-    if (source[eventName] && target[eventName] == null) {
+    if (source[eventName]) {
       target[eventName] = source[eventName]
     }
   }
