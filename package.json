@@ -46,7 +46,7 @@
   "dependencies": {
     "@f/dom-events": "^1.0.4",
     "ndpixels": "^1.0.1",
-    "pixels-canvas": "^1.0.2",
+    "pixels-canvas": "^1.0.4",
     "tcomb": "^3.0.0"
   }
 }
