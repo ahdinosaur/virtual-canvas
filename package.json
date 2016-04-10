@@ -44,6 +44,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "ndpixels": "^1.0.1",
     "pixels-canvas": "^1.0.2",
     "tcomb": "^3.0.0"
   }
