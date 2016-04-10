@@ -17,6 +17,7 @@ CanvasWidget.prototype.type = "Widget"
 CanvasWidget.prototype.init = function () {
   var canvas = document.createElement('canvas')
   this.render = pixelsToCanvas(canvas)
+  this.render(this.pixels)
   return canvas
 }
 CanvasWidget.prototype.update = function(previous, domNode) {
